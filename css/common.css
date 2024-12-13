@@ -17,6 +17,20 @@ ul {
   padding: 0;
 }
 
+.btn {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+.btn:hover {
+  background: #6c8cff;
+}
+
 
 /* Task 1 */
 
@@ -124,16 +138,63 @@ padding: 8px 16px;
 }
 
 .login-form button {
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
   width: 86px;
   height: 40px;
-  background: #4e75ff;
   margin-top: 16px;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
+
+/* Task 5 */
+
+.widget p {
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+}
+
+/* Task 6 */
+
+.control-box {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+.control-box input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 50px;
+  width: 150px;
+  height: 40px;
+}
+
+.control-box button {
+  width: 120px;
+  height: 40px;
+}
+
+.btn-red {
+  background: #ff4e4e;
+}
+.btn-red:hover {
+  background: #ff7070;
+}
+
+.container-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+}
+
 
