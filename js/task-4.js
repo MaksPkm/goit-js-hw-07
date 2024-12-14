@@ -12,6 +12,7 @@ loginForm.addEventListener('submit', event => {
 
     if (!emailValue || !passwordValue) {
         alert('All form fields must be filled in');
+        return;
     };
 
     const formData = {
